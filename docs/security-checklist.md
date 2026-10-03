@@ -48,8 +48,9 @@ Every proposal is a ticket with four guards:
 | The Telegram bot | **Allowlist** — only your numeric Telegram id(s) can command or approve. Wrong id → refused + the id is echoed to you. |
 | The webhook | **Secret header** — Telegram must send the right secret or it's ignored. |
 | The daily cron | **Fail-closed** — no `CRON_SECRET`, or wrong one → 401. It can spend/credit, so it never runs open. |
+| The inbox digest + job routes | **Fail-closed** — no `INBOX_DIGEST_SECRET`, or wrong one → 401. Can only post to your own allowlisted chats; dedupes on a key. |
 | The photo Vault | **Private bucket** — no public URLs. Photos are shown only via short-lived signed links the server makes. |
-- [ ] All five locks are on.
+- [ ] All the locks are on.
 
 ---
 
@@ -60,6 +61,7 @@ Every proposal is a ticket with four guards:
 - [ ] **`TELEGRAM_ALLOWED_USER_IDS`** contains only ids you trust (yours, your team's).
 - [ ] **`TELEGRAM_WEBHOOK_SECRET`** is a long random string, set in Vercel *and* on the webhook.
 - [ ] **`CRON_SECRET`** is set (required — the daily brief won't run without it, on purpose).
+- [ ] If I use the inbox digest: **`INBOX_DIGEST_SECRET`** is set, and it's *different* from `CRON_SECRET`.
 - [ ] **`.env` is git-ignored** — I never committed my keys. (Check: `git status` shows no `.env`.)
 - [ ] My Supabase Storage `vault` bucket is **private** (public = off).
 - [ ] I set my **threshold** (`EXPENSE_APPROVAL_THRESHOLD`) where I actually want the 🟢/🟡 line.

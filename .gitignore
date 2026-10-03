@@ -17,3 +17,6 @@ next-env.d.ts
 *.tsbuildinfo
 .DS_Store
 .vercel
+
+# your job-apply answers (copied from profile/job-profile.example.md)
+/profile/job-profile.md

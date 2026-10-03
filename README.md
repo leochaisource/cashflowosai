@@ -143,6 +143,16 @@ Pick a starting point from **`agents/gallery/`** — 7 filled examples across Fi
 
 ---
 
+## 📬 Inbox Digest + 💼 Job Shortlist (optional)
+
+A Claude Routine reads your Gmail every Saturday morning and posts **one** digest to Jarvis: what needs you,
+MBA programmes, tool notices, newsletter highlights. It also sends a ✅/❌ card for each job worth applying to.
+On Sunday a routine on your laptop applies to the ones you approved, in your own browser.
+A Gmail filter file keeps the noise out of your inbox in the meantime.
+Setup + the Routine prompt: **[docs/inbox-digest.md](./docs/inbox-digest.md)** · Sunday runbook: **[docs/job-apply-runbook.md](./docs/job-apply-runbook.md)**.
+
+---
+
 ## 🔒 Safety, in one line
 
 **AI proposes. You approve. Code executes — exactly once — and writes it down.**
@@ -160,7 +170,7 @@ Files you're meant to edit are marked **👉**. Files that keep your robot safe 
 ## 🗂️ What's in the box
 
 ```
-app/            the 10 tabs + Telegram webhook + daily cron + passcode gate (proxy.ts)
+app/            the 10 tabs + Telegram webhook + daily cron + inbox-digest/job routes + passcode gate (proxy.ts)
 lib/            the shared spine — Supabase, records, the CAS approval engine, vision
 agents/         vault (photo→file) · expense (ships ON) · _template (your 4 knobs) · gallery (7)
 scripts/        import.mjs · set-webhook.mjs · webhook-info.mjs   (all pure Node — Mac + Windows)
