@@ -20,3 +20,5 @@ next-env.d.ts
 
 # your job-apply answers (copied from profile/job-profile.example.md)
 /profile/job-profile.md
+# working files from /inbox-digest and /apply-jobs (may contain email summaries)
+/.inbox/
