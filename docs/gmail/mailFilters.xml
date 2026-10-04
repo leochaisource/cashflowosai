@@ -84,21 +84,21 @@
 </entry>
 <entry><category term='filter'></category><title>Mail Filter</title><content></content>
   <apps:property name='from' value="no-reply@grab.com OR airasia.com OR trip.com OR sleepdoctor.com OR pizzahut.com.my OR netflix.com OR tgv.com.my OR iqos.com OR celebrityfitness.com OR ergolab.com.my OR andsons.com.sg OR decathlon.com OR hoyoverse.com OR pubgmobile.com OR chess.com OR surfshark.com OR lazada.com.my OR shopifyemail.com"/>
-  <apps:property name='label' value="Promos"/>
+  <apps:property name='label' value="Shopping"/>
   <apps:property name='shouldArchive' value="true"/>
   <apps:property name='sizeOperator' value="s_sl"/>
   <apps:property name='sizeUnit' value="s_smb"/>
 </entry>
 <entry><category term='filter'></category><title>Mail Filter</title><content></content>
   <apps:property name='from' value="luckincoffee.com OR playstation.com OR eldorado.gg OR mformulamy.com OR abbottnutrition.com OR tradingview.com OR airbnb.com OR simedarbyproperty.com OR askvenue.com.my OR mydramawave.com OR e.regus.com OR pos.com.my OR unsplash.com OR sidec.com.my OR message.hsbc.com.my OR maybankard@maybank.com.my OR bigpayme.com OR message.atome.my"/>
-  <apps:property name='label' value="Promos"/>
+  <apps:property name='label' value="Shopping"/>
   <apps:property name='shouldArchive' value="true"/>
   <apps:property name='sizeOperator' value="s_sl"/>
   <apps:property name='sizeUnit' value="s_smb"/>
 </entry>
 <entry><category term='filter'></category><title>Mail Filter</title><content></content>
   <apps:property name='from' value="hlaloyalty.com OR marketing.my.moomoo.com OR bjak.my OR e.iqos.com OR ironman.com OR uber.com OR waze.com"/>
-  <apps:property name='label' value="Promos"/>
+  <apps:property name='label' value="Shopping"/>
   <apps:property name='shouldArchive' value="true"/>
   <apps:property name='sizeOperator' value="s_sl"/>
   <apps:property name='sizeUnit' value="s_smb"/>
@@ -119,7 +119,7 @@
 </entry>
 <entry><category term='filter'></category><title>Mail Filter</title><content></content>
   <apps:property name='from' value="messages-noreply@linkedin.com OR newsletters-noreply@linkedin.com OR updates-noreply@linkedin.com OR invitations@linkedin.com OR messaging-digest-noreply@linkedin.com OR groups-noreply@linkedin.com OR notifications-noreply@linkedin.com OR em.linkedin.com OR mail.instagram.com OR priority.instagram.com OR facebookmail.com OR discover.pinterest.com OR redditmail.com OR business-marketing.facebook.com OR editors-noreply@linkedin.com"/>
-  <apps:property name='label' value="Social"/>
+  <apps:property name='label' value="Social media"/>
   <apps:property name='shouldArchive' value="true"/>
   <apps:property name='sizeOperator' value="s_sl"/>
   <apps:property name='sizeUnit' value="s_smb"/>

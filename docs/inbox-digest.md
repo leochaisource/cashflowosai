@@ -31,9 +31,10 @@ and **Account alerts** (new GHL admins, Meta ad-account reviews, workflow errors
 2. Choose [`docs/gmail/mailFilters.xml`](gmail/mailFilters.xml) → **Open file** → **Create filters**.
 3. **Leave "Apply new filters to existing email" UNTICKED.**
 
-Gmail creates the labels: `Jobs`, `Jobs/Action`, `Tools`, `Tools/Wordfence`, `Newsletters`, `Promos`,
-`Education-MBA`, `Social` (archived) and `Leads` ⭐, `Money`, `Account alerts` (**kept in the inbox**).
+Gmail creates the labels: `Jobs`, `Jobs/Action`, `Tools`, `Tools/Wordfence`, `Newsletters`, `Shopping`,
+`Education-MBA`, `Social media` (archived) and `Leads` ⭐, `Money`, `Account alerts` (**kept in the inbox**).
 Job replies that mention interview / assessment / next steps / offer stay in the inbox under `Jobs/Action` ⭐.
+(Gmail refused filters labelled `Social` and `Promos` — they clash with its own tab names — hence `Social media` and `Shopping`.)
 
 ### 2 · Archive old noise (older than 30 days)
 Paste into Gmail search → tick the select-all box → **Select all conversations that match this search** → **Archive**:
